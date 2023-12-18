@@ -6,9 +6,9 @@ metadata:
   annotations:
     nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
-  ingressClassName: ollama.localdev.me
+  ingressClassName:
   rules:
-  - host: 
+  - host: ollama.localdev.me
     http:
       paths:
       - path: /
